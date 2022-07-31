@@ -1,6 +1,6 @@
 # **Welcome to my homepage**
 
-Please feel free to bookmake it. 
+Please feel free to bookmark it. 
 
 ---
 ### News
@@ -11,7 +11,7 @@ Please feel free to bookmake it.
 <p style = "margin:20px"></p>
 ---
 ### Awards
-<br>
+Under construction.
 
 ---
 ### My programming Languages
