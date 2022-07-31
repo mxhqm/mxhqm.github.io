@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">   {{  site.title | default: site.github.repository_name }}</a></h1>
+
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" width="240" /> <br>
+        {% endif %}
+        
+        <b>Master's degree</b>
+        <br>
+
+        <font size="3" color="black">
+        </font> 
+
+        <br>
+        <font size="3" color="black">
+        </font>
+        <p></p>
+      
+      </header>
+      <section>
+
+      {{ content }}
+
+      <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=M43mMXEyo9n29UHnSDUT-wUosz1cCTbXBe7N_OuIqh0&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+      <small> <center> &copy; Xiaohui Meng | Last updated: July 2022 </center></a></small>
+      </section>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
