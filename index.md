@@ -21,4 +21,4 @@ Under construction.
 
 
 <br>
-<small> <center> &copy; Xiaohui Meng | Last updated: July 2022 </center></a></small>
+<small> <center> &copy; Xiaohui Meng | Last updated: July 2022 </center></small>
